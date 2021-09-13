@@ -109,7 +109,7 @@ int main() {
 		cout << "a - b = " << (a - b) << endl; 
 		cout << "a * c = " << (a * c) << endl; 
 		cout << "b + c = " << (b + c) << endl; 
-		cout << "1 / b = " << (Rational(1,1) / c) << endl; 
+		cout << "1 / b = " << (Rational(1,1) / b) << endl; 
 	} catch(invalid_argument& arg){
 		cout << arg.what() << endl;
 		return -1;
